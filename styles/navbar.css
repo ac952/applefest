@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+li {
+    float:right;
+}
+li a {
+    display:block;
+    color:#315220;
+    padding: 20px;
+    text-align:center;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration:none;
+}
+
+li a.active {
+    background-color:#a7c165;
+}
+
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_active*/
+li a:hover:not(.active) {
+    background-color:#d3e6a3;
+}
+
+
+@media screen and (max-width:700px) {
+  li {
+      float:left;
+  }
+}

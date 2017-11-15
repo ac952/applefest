@@ -1,0 +1,435 @@
+/*#content {
+  width:500px;
+}*/
+
+#ithacaIMG {
+  width:250px;
+  position: absolute;
+  top: 5px;
+  left:50px;
+}
+
+#appleheading, #giftheading, #fingerheading {
+  color: #4e8252;
+  background-color: #d1f5ab;
+  text-align: center;
+  padding: 15px;
+  border: 3px dotted black;
+}
+
+#cg,#bl,#tf {
+  color: #4e8252;
+  background-color: #d1f5ab;
+  text-align: center;
+  padding: 15px;
+  border: 3px dotted black;
+  margin-right: 50px;
+  /*margin-right: 60px;*/
+}
+
+#mapheading {
+  color: #4e8252;
+  background-color: #d1f5ab;
+  text-align: center;
+  padding: 15px;
+  border: 3px dotted black;
+  /*margin-left: 260px;*/
+  margin-right: 420px;
+}
+
+#tcatheading {
+  color: #4e8252;
+  background-color: #d1f5ab;
+  text-align: center;
+  padding: 15px;
+  border: 3px dotted black;
+  margin-right: 620px;
+}
+
+#directions{
+  color: #4e8252;
+  background-color: #d1f5ab;
+  text-align: center;
+  padding: 15px;
+  border: 3px dotted black;
+  margin-right: 100px;
+}
+
+#appheading {
+  color: #4e8252;
+  background-color: #d1f5ab;
+  text-align: center;
+  padding: 15px;
+  border: 3px dotted black;
+  /*margin-left: 160px;*/
+  margin-right: 360px;
+}
+
+#map {
+  width:800px;
+}
+
+.col2 {
+  padding: 15px;
+	text-align: center;
+  width:200px;
+  height: 320px;
+  float:left;
+  border: 1px black dashed;
+  margin:0px;
+}
+
+
+.columns2 {
+	margin: 10px auto;
+	overflow: hidden;
+	width: 696px;
+	margin: 5px;
+}
+
+.images{
+  width:200px;
+}
+
+
+.eventsnav {
+  z-index:12;
+  width: 300px;
+  position:fixed;
+  /*position: absolute;*/
+  top:170px;
+  left:30px;
+  text-align: center;
+}
+
+.eventsnav #events {
+  display: block;
+  color: #fcfafb;
+  background-color: black;
+  opacity: .65;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 20px;
+  text-decoration: none;
+  z-index:12;
+  font-family: sans-serif;
+}
+
+.eventsnav #apple , .eventsnav #gift , .eventsnav #finger {
+  display: block;
+  color: black;
+  background-color: #d3e6a3;
+  opacity: .65;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  z-index:12;
+  font-family: sans-serif;
+}
+
+.eventsnav #apple:hover , .eventsnav #gift:hover , .eventsnav #finger:hover {
+  background-color: rgb(167, 184, 147);
+  border: 1px solid white;
+}
+
+
+#transportation {
+  font-family: sans-serif;
+  position:absolute;
+  top: 180px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+#tcat{
+  width:250px;
+}
+
+#mapposition {
+  font-family: sans-serif;
+  position:absolute;
+  top: 180px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#instruction {
+  font-family: sans-serif;
+  position: absolute;
+  top: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#app {
+  width: 180px;
+}
+
+
+#step1,#step2,#step3 {
+  width: 200px;
+}
+
+.col {
+  padding: 15px;
+	text-align: center;
+  width:300px;
+  height: 450px;
+  float:left;
+  border: 1px black dashed;
+}
+
+.columns {
+	margin: 10px auto;
+	overflow: hidden;
+	width: 1000px;
+	margin: 5px;
+}
+
+.direct {
+  color:#198c40;
+}
+
+.applefestival, .gorges {
+  position: absolute;
+  top: 170px;
+  left: 350px;
+  margicornn-left: 50px;
+  margin-right: 50px;
+  font-family: sans-serif;
+}
+
+.form{
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: sans-serif;
+}
+
+.successform{
+  position: absolute;
+  top: 210px;
+  left: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: sans-serif;
+}
+
+#blimages, #cgimages, #tfimages{
+  width: 350px;
+  left:10px;
+  margin: 1px;
+}
+
+.takemethere{
+  color: rgb(77, 163, 151);
+}
+
+.input{
+  width: 150px;
+  height: 28px;
+  border: solid 0.5px;
+}
+
+.input2{
+  width: 365px;
+  height: 28px;
+  border: solid 0.5px;
+}
+
+/*https://stackoverflow.com/questions/10451445/two-div-blocks-on-same-line*/
+#input-container{
+  text-align: left;
+}
+
+#select-style{
+  width:50px;
+}
+
+#thank{
+  position:relative;
+  top: 70px;
+  left: 30px;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-right: 50px;
+  margin-left: 30px;
+  text-align: center;
+  background-color: rgb(183, 221, 163);
+  padding: 20px;
+  color:rgb(59, 111, 77);
+}
+
+ #contactheading {
+   /*display: block;*/
+   color: #fcfafb;
+   background-color: black;
+   opacity: .65;
+   font-size: 30px;
+   font-family: sans-serif;
+   text-align: center;
+   padding: 20px;
+   margin-right: 620px;
+ }
+
+.error{
+  font-size: 14px;
+  color:red;
+  /*border: 1px solid red;*/
+}
+.hidden{
+  display:none;
+}
+
+#formInfo {
+  position:relative;
+  top: 70px;
+  left: 30px;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-right: 450px;
+  margin-left: 30px;
+  background-color: rgb(183, 221, 163);
+  padding: 20px;
+  color:rgb(59, 111, 77);
+}
+
+@media screen and (max-width: 700px) {
+#content {
+  width:375px;
+}
+#ithacaIMG {
+  width:0px;
+  position: absolute;
+  top: 5px;
+  left:50px;
+}
+
+.applefestival, .gorges {
+  position: absolute;
+  top: 530px;
+  left:50px;
+  width:300px;
+  float:left;
+  left:10px;
+  height: auto;
+  margin: 0px;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.eventsnav{
+  width:300px;
+  left:9px;
+  position:absolute;
+}
+/*map*/
+#map {
+  width:380px;
+  margin:0px;
+  text-align: center;
+}
+
+#map2 {
+  width: 150px;
+}
+
+#mapposition {
+  font-family: sans-serif;
+  position:absolute;
+  top: 180px;
+  margin:0px;
+  width: 370px;
+}
+
+#transportation{
+  width: 350px;
+  margin: 0px;
+}
+
+.direct {
+  color:#198c40;
+}
+
+.col {
+  padding: 15px;
+	text-align: center;
+  width:300px;
+  height: 450px;
+  float:left;
+  border: 1px black dashed;
+  margin:0px;
+}
+
+
+.columns {
+	margin: 10px auto;
+	overflow: hidden;
+	width: 370px;
+	margin: 5px;
+}
+
+/*photos in index*/
+.col2 {
+  padding: 15px;
+	text-align: center;
+  width:200px;
+  height: 300px;
+  float:left;
+  border: 1px black dashed;
+  margin:0px;
+}
+
+
+.columns2 {
+	margin: 10px auto;
+	overflow: hidden;
+	width: 370px;
+	margin: 5px;
+}
+
+#giftimage, #fingerimage {
+  width:300px;
+}
+
+#mapheading {
+  color: #4e8252;
+  background-color: #d1f5ab;
+  text-align: center;
+  padding: 15px;
+  border: 3px dotted black;
+  margin:2px;
+  width:250px;
+}
+
+#cg,#bl,#tf {
+  color: #4e8252;
+  background-color: #d1f5ab;
+  text-align: center;
+  padding: 15px;
+  border: 3px dotted black;
+  margin: 20px;
+  width:230px;
+}
+
+#tcatheading, #appheading {
+  color: #4e8252;
+  background-color: #d1f5ab;
+  text-align: center;
+  padding: 15px;
+  border: 3px dotted black;
+  margin-right: 5px;
+  width:270px;
+}
+
+#blimages, #cgimages, #tfimages{
+  width: 300px;
+  left:10px;
+  margin: 1px;
+}
+
+}
