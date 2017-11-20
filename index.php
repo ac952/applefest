@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type = "text/javascript" src="scripts/site.js"></script>
-  <title>Project 3 Milestone 1</title>
+  <title>Project 3 Milestone 3</title>
 </head>
 
 <body>
